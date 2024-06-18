@@ -1,2 +1,2 @@
 # gcp-code-template
-GCP code template
+GCP Sample code templates for each resources
