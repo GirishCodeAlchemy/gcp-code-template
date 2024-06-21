@@ -1,0 +1,15 @@
+python publisher.py $GOOGLE_CLOUD_PROJECT create MyTopic
+
+python publisher.py $GOOGLE_CLOUD_PROJECT list
+
+#create subsrcpiton
+python subscriber.py $GOOGLE_CLOUD_PROJECT create MyTopic MySub
+
+python subscriber.py $GOOGLE_CLOUD_PROJECT list-in-project
+
+
+## publish the message
+gcloud pubsub topics publish MyTopic --message "Hello"
+
+## view the message
+python subscriber.py $GOOGLE_CLOUD_PROJECT receive MySub
