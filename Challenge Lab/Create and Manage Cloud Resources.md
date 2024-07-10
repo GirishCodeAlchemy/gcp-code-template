@@ -1,5 +1,4 @@
 ## `Lab Name` - *Create and Manage Cloud Resources: Challenge Lab*
-## `Lab Link` - [Click Here](https://www.cloudskillsboost.google/focuses/10258?parent=catalog)
 
 
 ### Simply copy the following code and paste it into your `cloud shell terminal`.

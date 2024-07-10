@@ -1,5 +1,4 @@
 ## `Lab Name` - *Automating Infrastructure on Google Cloud with Terraform: Challenge Lab*
-## `Lab Link` - [Click Here](https://www.cloudskillsboost.google/focuses/42740?parent=catalog)
 
 
 ## Task 1. Create the configuration files
