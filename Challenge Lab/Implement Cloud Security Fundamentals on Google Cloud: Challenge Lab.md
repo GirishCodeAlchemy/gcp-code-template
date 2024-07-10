@@ -63,9 +63,9 @@ gcloud projects add-iam-policy-binding $DEVSHELL_PROJECT_ID --member serviceAcco
 
 You must now use the service account you have configured when creating a new Kubernetes Engine private cluster. The new cluster configuration must include the following:
 
-- The cluster must be called orca-cluster-270
+- The cluster must be called orca-cluster-xxx
 - The cluster must be deployed to the subnet orca-build-subnet
-- The cluster must be configured to use the orca-private-cluster-813-sa service account.
+- The cluster must be configured to use the orca-private-cluster-xxx-sa service account.
 - The private cluster options enable-master-authorized-networks, enable-ip-alias, enable-private-nodes, and enable-private-endpoint must be enabled.
 - Once the cluster is configured you must add the internal ip-address of the orca-jumphost compute instance to the master authorized network list.
 
