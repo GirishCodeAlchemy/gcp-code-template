@@ -15,7 +15,7 @@ resource "google_compute_instance" "vm_instance" {
   provisioner "local-exec" {
     command = "echo ${google_compute_instance.vm_instance.name}:  ${google_compute_instance.vm_instance.network_interface[0].access_config[0].nat_ip} >> ip_address.txt"
   }
-  
+
   boot_disk {
     initialize_params {
       image = "debian-cloud/debian-11"
@@ -62,4 +62,23 @@ resource "google_compute_instance" "another_instance" {
     access_config {
     }
   }
+}
+
+
+module "gcs-static-website-bucket" {
+  source = "./modules/gcs-static-website-bucket"
+
+  name       = var.name
+  project_id = var.project_id
+  location   = "REGION"
+
+  lifecycle_rules = [{
+    action = {
+      type = "Delete"
+    }
+    condition = {
+      age        = 365
+      with_state = "ANY"
+    }
+  }]
 }

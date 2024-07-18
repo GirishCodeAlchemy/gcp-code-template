@@ -47,3 +47,9 @@ output "route_names" {
   value       = module.test-vpc-module.route_names
   description = "The routes associated with this VPC"
 }
+
+
+output "bucket-name" {
+  description = "Bucket names."
+  value       = "module.gcs-static-website-bucket.bucket"
+}

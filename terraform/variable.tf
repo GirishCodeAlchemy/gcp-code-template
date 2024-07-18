@@ -8,3 +8,8 @@ variable "network_name" {
   default     = "example-vpc"
 }
 
+variable "name" {
+  description = "Name of the buckets to create."
+  type        = string
+  default     = "FILL IN A (UNIQUE) BUCKET NAME HERE"
+}
