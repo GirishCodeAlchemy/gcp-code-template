@@ -25,3 +25,8 @@ terraform init -reconfigure
 ```
 terraform refresh
 ```
+
+### Delete the instance
+```
+terraform taint module.instances.google_compute_instance.tf-instance-3
+```
