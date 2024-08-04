@@ -9,6 +9,8 @@ You can only SSH to the bastion and only via IAP.
 You can only SSH to juice-shop via the bastion.
 Only HTTP is open to the world for juice-shop.
 
+![image](https://github.com/user-attachments/assets/136a830d-b74f-40dc-afbc-578796f5c1f7)
+
 ### Export all the values carefully
 
 ```bash
