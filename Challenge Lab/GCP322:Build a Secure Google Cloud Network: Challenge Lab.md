@@ -11,6 +11,8 @@ Only HTTP is open to the world for juice-shop.
 
 ![image](https://github.com/user-attachments/assets/136a830d-b74f-40dc-afbc-578796f5c1f7)
 
+![image](https://github.com/user-attachments/assets/837d0bb2-2941-4772-807b-55019f5cb154)
+
 ### Export all the values carefully
 
 ```bash
