@@ -1,5 +1,6 @@
 ## `Lab Name` - *Build a Secure Google Cloud Network: Challenge Lab|| [GSP322](https://www.cloudskillsboost.google/course_templates/654/labs/464661)||*
 
+```
 You need to create the appropriate security configuration for Jeff's site. Your first challenge is to set up firewall rules and virtual machine tags. You also need to ensure that SSH is only available to the bastion via IAP.
 
 For the firewall rules, make sure that:
@@ -8,6 +9,7 @@ The bastion host does not have a public IP address.
 You can only SSH to the bastion and only via IAP.
 You can only SSH to juice-shop via the bastion.
 Only HTTP is open to the world for juice-shop.
+```
 
 ![image](https://github.com/user-attachments/assets/136a830d-b74f-40dc-afbc-578796f5c1f7)
 
